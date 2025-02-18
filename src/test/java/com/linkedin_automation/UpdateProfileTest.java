@@ -19,7 +19,7 @@ public class UpdateProfileTest {
 		//Sign-in
 		driver.findElement(By.xpath("//a[contains(@data-tracking-control-name,'signin')]")).click();
 		driver.findElement(By.id("username")).sendKeys("zaherma2408@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("hello123");
+		driver.findElement(By.id("password")).sendKeys("123Aa45@");
 		driver.findElement(By.cssSelector("button[data-litms-control-urn*='login-submit']")).click();
 		
 		//Editing & saving the Info
